@@ -1,0 +1,5 @@
+{
+  "outputDirectory": "public",
+  "rewrites": [{ "source": "/lab", "destination": "/" }, { "source": "/docs", "destination": "/" }, { "source": "/about", "destination": "/" }],
+  "functions": { "api/*.mjs": { "maxDuration": 120 } }
+}
